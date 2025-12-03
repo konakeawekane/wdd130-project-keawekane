@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 12px 22px;
+  background: #074b0a;
+  border-bottom: 3px solid rgba(255,255,255,0.03);
+}
+
+
+header img{
+    width:100px;
+}
