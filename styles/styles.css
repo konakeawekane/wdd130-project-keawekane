@@ -10,12 +10,11 @@ header {
   align-items: center;
   justify-content: space-between;
   background:#00d30d;
-  padding: 0 22px;
-  border-radius:50px;
+  border-radius:35px;
 }
 header div {
   background: #074f09;
-  margin: 0 150px;
+  margin: 0 15px;
   text-align:right;
   border-radius:50px;
   padding:0;
@@ -31,7 +30,15 @@ header h1{
   text-align:right;
 }
 header div h2{
+  font-size:50px;
+  margin-left:200px;
+  margin-right:20px;
   text-align:right;
+}
+main{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
 }
 
 main div {
@@ -45,35 +52,79 @@ main div {
   border-bottom: 3px solid rgba(255,255,255,0.03);
 }
 main a{
+  border-radius:30px;
   background:#00d30d;
   text-decoration:none;
   color:black;
 }
 main div i{
+  border-radius:30px;
   background:#00d30d;
-  padding:20px;
+  padding:10px;
 }
-
-
 main section{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
   padding: 0 22px;
   border-bottom: 3px solid rgba(255,255,255,0.03);
   border-radius:50px;
 }
 main section img{
   width:100px;
-  border-radius:100%;
+  border-radius:100%;  
+  position: absolute;
+  margin:270px;
+  margin-top:-80px
+}
+main section i{
+  border-radius:20%;  
+  font-size:100px;
+  padding:100px;
   
 }
 
-background:#ff2321;
-background:#d9d9d9;
-background:#e2a9f1;
-background:#fcbc00;
-background:#ff5757;
-background:#5ce1e6;
-background:#c1ff72;
+.fa-dumbbell {
+  background:#e2a9f1;
+  padding-bottom:200px;
+}
+.workout{
+  background:#976fa1;
+  font-size:30px;
+  border-radius:30px;
+  position: absolute;
+  margin-top:220px;  
+  padding:20px;
+  text-align:center;
+  margin-left:75px;
+}
+
+.fa-book {
+  background:#fcbc00;
+  padding-bottom:200px;
+}
+.study{
+  background:#aa8002;
+  font-size:30px;
+  border-radius:30px;
+  position: absolute;
+  margin-top:220px;  
+  padding:20px;
+  text-align:center;
+  margin-left:75px;
+}
+.fa-utensils{
+  background:#ff5757;
+  padding-bottom:200px;
+}
+.cook{
+  background:#a82f2f;
+  font-size:30px;
+  border-radius:30px;
+  position: absolute;
+  margin-top:220px;  
+  padding:20px;
+  text-align:center;
+  margin-left:75px;
+}
